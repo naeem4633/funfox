@@ -33,7 +33,7 @@ function App() {
         <div className="App-body">
           <Routes>
             <Route path='/' element={<Page1 windowDimensions={windowDimensions} />} />
-            <Route path='page-2' element={<Page2 {...windowDimensions} />} />
+            <Route path='page-2' element={<Page2 windowDimensions={windowDimensions} />} />
           </Routes>
         </div>
       </div>
