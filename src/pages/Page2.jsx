@@ -69,7 +69,7 @@ const Page2 = () => {
               </div>
             </div>
 
-            <div className='w-11/12 flex justify-between px-4 pt-4'>
+            <div className='absolute bottom-2 w-11/12 flex justify-between px-4 pt-4'>
               <img className='w-14 cursor-pointer' src='./images/voice-icon.png' alt=''/>
               <div className='flex justify-center items-center space-x-2'>
                 <Link to={'/'}><img className='w-10' src='./images/button-previous.png' alt=''/></Link>
